@@ -134,7 +134,13 @@ If you experience issues with JTegraNX, you just want to try a different payload
     * **macOS Sequoia users:** Apple has changed how unsigned applications from the internet are opened. You will need to follow the instructions on the [hacks.guide Wiki](https://wiki.hacks.guide/wiki/Open_unsigned_applications_on_macOS_Sequoia) to open the application.
 1. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
 1. Once selected, click `Push!`. The payload should now be injected successfully.
-    * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+    * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon. *
+
+::: warning
+
+If the progress bar in CrystalRCM appears to be stuck at about 75% for a long time and your Switch screen stays black, your device is likely patched. You will need to install a modchip to continue.
+
+:::
 
 ::::
 
